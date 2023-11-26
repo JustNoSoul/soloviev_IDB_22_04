@@ -23,8 +23,8 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("CEN");
         c-=1;
         x.text = c.ToString();
+    
     }
 }
